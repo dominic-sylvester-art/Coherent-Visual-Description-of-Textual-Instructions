@@ -5,8 +5,8 @@ What is it?
 ------------------------------
 
 This is based on the motivation that images along with text are more comprehensive than text alone.
-User first provides the query like 'How to make coffee' and then inputs set of instructions on the UI hosted locally.
-Model then analyzes the text and associates the images with it and sets everything in a proper template. Images are fetched online using Google API. The model is not domain-specific; user can specify any set of instructions.
+User first provides a query like 'How to make coffee' along with a set of instructions on the UI hosted locally.
+Model then analyzes the text and associates relevant images with it, setting everything into a proper template. Images are fetched in an online fashion using Google API. The model is not domain-specific; user can specify any set of instructions.
 
 Database
 ------------------------------
