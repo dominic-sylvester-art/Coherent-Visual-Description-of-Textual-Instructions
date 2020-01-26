@@ -1,5 +1,6 @@
 #Visual Description of textual Instructions
 ------------------------------
+Our paper was published in 2017 IEEE International Symposium on Multimedia. titled "Coherent Visual Description of Textual Instructions".
 
 What is it?
 ------------------------------
@@ -45,6 +46,8 @@ Every instruction is fed to Stanford dependecy parser which builts a dependency 
 
 Image-processing
 ------------------------------
-For the time-being, user has to maually set representative image for every entity. Coherency is ensured using Image histogram-matching which builds histogram of each image on all the 3 channels with 8-bins each. It then computes the distance between the histograms using 'Correlation' method(User can specify his/her own method in `prototype2.py`) and returns a score. Based on the score,most coherent image is chosen and coherency is ensured. 
+Manual Setup: User has to maually set representative image for every entity. Coherency is ensured using Image histogram-matching which builds histogram of each image on all the 3 channels with 8-bins each. It then computes the distance between the histograms using 'Correlation' method(User can specify his/her own method in `prototype2.py`) and returns a score. Based on the score,most coherent image is chosen and coherency is ensured. 
+
+Automatic Setup (Code will be released soon): Here, the framework uses graph-based matching to select representative images for each instruction. Images are represented using a deep convolutional network and matched using Djikstra's algorithm to enforce coherency.
 
 
