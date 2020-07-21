@@ -1,4 +1,4 @@
-#Visual Description of textual Instructions
+Visual Description of textual Instructions
 ------------------------------
 Our paper was published in 2017 IEEE International Symposium on Multimedia. titled "Coherent Visual Description of Textual Instructions" https://ieeexplore.ieee.org/abstract/document/8241590.
 
