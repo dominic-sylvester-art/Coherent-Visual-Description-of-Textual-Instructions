@@ -52,6 +52,7 @@ Automatic Setup (Code will be released soon): Here, the framework uses graph-bas
 
 Citation
 ------------------------------
+If you use our work for further research, consider citing:
 ```
 @inproceedings{mujumdar2017coherent,
   title={Coherent Visual Description of Textual Instructions},
