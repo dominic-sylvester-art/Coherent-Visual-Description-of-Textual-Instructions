@@ -50,4 +50,16 @@ Manual Setup: User has to maually set representative image for every entity. Coh
 
 Automatic Setup (Code will be released soon): Here, the framework uses graph-based matching to select representative images for each instruction. Images are represented using a deep convolutional network and matched using Djikstra's algorithm to enforce coherency.
 
+Citation
+------------------------------
+```
+@inproceedings{mujumdar2017coherent,
+  title={Coherent Visual Description of Textual Instructions},
+  author={Mujumdar, Shashank and Gupta, Nitin and Jain, Abhinav and Mehta, Sameep},
+  booktitle={2017 IEEE International Symposium on Multimedia (ISM)},
+  pages={122--129},
+  year={2017},
+  organization={IEEE}
+}
+```
 
